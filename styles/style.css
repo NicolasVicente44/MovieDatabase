@@ -12,6 +12,13 @@
       margin-top: 2.5em;
     }
 
+    #movieData {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        padding-bottom: 1em;
+    }
+
     /* Adjust the search box size */
     #searchTextBox {
       width: 50%;
