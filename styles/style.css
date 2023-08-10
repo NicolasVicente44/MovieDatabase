@@ -1,0 +1,32 @@
+
+    * {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+    }
+    .container {
+      max-width: 80%;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 2.5em;
+    }
+
+    /* Adjust the search box size */
+    #searchTextBox {
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    #submitBtn {
+        width: 15%;
+        margin: 0 auto;
+        margin-top: 1em;
+    }
+
+    #errorLabel {
+        color: red;
+    }
+    #errorLabel2 {
+        color: red;
+    }

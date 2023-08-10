@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body class="container">
+    <form>
+      <div class="row">
+        <div class="col">
+          <input
+            name="search"
+            type="text"
+            id="searchTextBox"
+            class="form-control"
+            placeholder="Search Movies..."
+          />
+        </div>
+      </div>
+    </form>
+    
+
+    <button type="button" class="btn btn-success" id="submitBtn">Submit</button>
+
+    <p id="errorLabel"></p>
+    <p id="errorLabel2"></p>
+
+
+    <table class="table dark">
+      <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Title</th>
+          <th scope="col">Year</th>
+          <th scope="col">Type</th>
+          <th scope="col">Image</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+
+    <script src="./javascript/app.js"></script>
+  </body>
+</html>
