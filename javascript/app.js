@@ -4,7 +4,7 @@ const tableBody = document.querySelector("#tableBody");
 const errorLabel = document.querySelector("#errorLabel");
 const errorLabel2 = document.querySelector("#errorLabel2");
 
-const baseURL = "http://www.omdbapi.com/";
+const baseURL = "https://www.omdbapi.com/";
 const apiKey = "5660686d";
 
 submitBtn.addEventListener("click", getApiData);
