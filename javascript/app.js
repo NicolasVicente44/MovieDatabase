@@ -5,7 +5,7 @@ const errorLabel = document.querySelector("#errorLabel");
 const errorLabel2 = document.querySelector("#errorLabel2");
 
 const baseURL = "http://www.omdbapi.com/";
-const apiKey = "8127fd11";
+const apiKey = "5660686d";
 
 submitBtn.addEventListener("click", getApiData);
 
